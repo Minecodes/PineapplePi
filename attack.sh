@@ -15,7 +15,6 @@ shutdown_on_stop=false
 
 # Script
 echo "Please edit the config in /etc/pap/attack and the script in the same file!!!!"
-log_daemon_msg "Please edit the config in /etc/pap/attack and the script in the same file!!!!" "pap" || true
 if $shutdown_on_stop == true
 then
   shutdown now
